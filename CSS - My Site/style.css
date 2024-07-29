@@ -1,0 +1,290 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background: linear-gradient(#94e1e4,#16acb1,#16acb1,#94e1e4,#94e1e4,#16acb1);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 16px; /* Base font size */
+    line-height: 1.6; /* Improved readability */
+    max-width: 100%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.4rem 7%;
+    background: #66bfbf;
+    box-shadow: 0 0 14px #5f7b7c;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    transition: .5s;
+    max-width: 100%;
+}
+
+.theme{
+    position: fixed;
+    right: 88px;
+    background-color: #beeefa;
+    width: 60px;
+    height: 25px;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.dark-mode{
+    background-color: rgb(49, 44, 44);
+    width: 23px;
+    height: 23px;
+    position: fixed;
+    top: 25px;
+    right: 124px;
+    border-radius: 30px;
+    max-width: 100%;
+}
+
+.light-mode{
+    max-width: 100%;
+    width: 23px;
+    height: 23px;
+    position: fixed;
+    top: 25px;
+    right: 89px;
+    border-radius: 30px;
+}
+
+.nav a{
+    font-size: 1.1rem;
+    padding: 10px;
+    color: #463e3e;
+    text-decoration: none;
+}
+
+.top-container{
+    margin-top: 50px;
+    
+    max-width: 100%;
+}
+
+.middle-container{
+    
+    max-width: 100%;
+}
+
+
+p, h3 {
+    font-size: 1.2rem; /* Medium font size */
+}
+h1, h2, h3{
+    display: block;
+}
+
+h1 {
+    color: #072727;
+    font-size: 5rem; /* Large font size */
+    margin-top: 0;
+}
+
+h2 {
+    color: #1d4d4d;
+    font-size: 2.5rem;
+}
+
+h3{
+    color: #29394b;
+    font-size: 1.8rem;
+}
+
+hr{
+    border: none; /* Remove default border */
+    height: 0; /* Ensure no height by default */
+    border-top: 5px dotted #26394e; /* Dotted border style */
+    border-radius: 10px; /* Round corners */
+    width: 20%; /* Set width relative to container */
+    margin: 20px auto; /* Center and add margin */
+    border-bottom: none;
+}
+.cloud1{
+    
+    position: relative;
+    top: 50px;
+    width: 200px;
+    max-width: 100%;
+}
+
+.mountain{
+    width: 500px;
+    max-width: 100%;
+}
+.skill-row1 {
+    margin: 20px auto; /* Center align and provide space */
+    max-width: 800px; /* Adjust max-width as per design */
+    text-align: left;
+    padding: 0 20px; /* Add padding for spacing */
+}
+
+.profile-pics {
+    width: 150px; /* Adjust size for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 40%; /* Make it circular */
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+
+
+.skill-row {
+    margin: 20px auto; /* Center align and provide space */
+    max-width: 800px; /* Adjust max-width as per design */
+    text-align: left;
+    padding: 0 20px; /* Add padding for spacing */
+
+}
+
+.skill1{
+    float: left;
+}
+.skill2{
+    float: right;
+}
+
+.skill1, .skill2 {
+    width: 120px; /* Adjust size for responsiveness */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between elements */
+}
+
+.web-text{
+    padding: 5px;
+    
+
+}
+#portfolio{
+    text-decoration: none;
+    background: #1e7c7c;
+    border-radius: 7px;
+    font-size: 20px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mountain {
+    max-width: 100%; /* Ensure image doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 20px auto; /* Center align and provide space */
+    
+}
+
+.contact-me {
+    background-color: #e4f9f5;
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+    margin: 0px auto; /* Center align and provide space */
+    max-width: 800px; /* Adjust max-width as per design */
+}
+
+.whatsapp {
+    display: inline-block; /* Ensure icon is inline */
+    font-size: 3rem; /* Icon size */
+    color: #25d366; /* WhatsApp green */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px; /* Button padding */
+    background-color: #16acb1;
+    color: #fff;
+    text-decoration: none; /* Remove default underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: #1e7c7c; /* Darker shade on hover */
+}
+
+.feedback {
+    background-color: #e4f9f5;
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px auto; /* Center align and provide space */
+    max-width: 800px; /* Adjust max-width as per design */
+}
+.label{
+    color: #072727;
+}
+
+.textarea {
+    width: 100%; /* Full width textarea */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Space below textarea */
+    border: 2px solid #ccc; /* Border for textarea */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1rem; /* Medium font size */
+}
+
+.submit-feedback {
+    display: block; /* Block level button */
+    width: 100%; /* Full width button */
+    padding: 10px; /* Add padding */
+    background-color: #16acb1;
+    color: #fff;
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.2rem; /* Medium font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.submit-feedback:hover {
+    background-color: #1e7c7c; /* Darker shade on hover */
+}
+
+.bottom-container {
+    text-align: center; /* Aligns content to center */
+    margin-top: 20px; /* Adds some top margin for separation */
+    padding: 20px; /* Adds padding inside the container */
+    
+     /* Light gray background */
+}
+
+.social-link {
+    display: inline-block; /* Makes each social link appear on the same line */
+    margin: 0 10px; /* Adds spacing between each social link */
+    text-decoration: none; /* Removes underline from links */
+    color: #333; /* Sets text color */
+}
+
+.social-link:hover{
+    text-decoration: underline;
+}
+
+.social-link span {
+    display: block; /* Each span element (icon or text) appears on a new line */
+}
+
+.ig-ion-icon, .facebook-ion-icon {
+    font-size: 24px; /* Adjusts the size of the ion icons */
+    margin-bottom: 5px; /* Adds a small space below the icons */
+}
+
+.copyright {
+    margin-top: 20px; /* Adds space above the copyright text */
+    color: #f7f7f7; /* Sets a lighter color for copyright text */
+    font-size: 16px; /* Adjusts the font size of copyright text */
+}
+
+
+
+
